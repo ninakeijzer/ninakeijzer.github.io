@@ -1,41 +1,82 @@
-h1, h2  {
-    color:blueviolet;
-    font-size: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 5px;
-    border: 1px solid black;
-    padding-left: 15px;
+/* Typography */
+body {
+  /* Everything is Raleway */
+  font-family: 'Raleway', sans-serif;
 }
-img{
-    height: 320px;
-    /* width: 200x px; */
+/* Except we're using more specific rules to override the headlines */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+/* And the "logo" */
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+.navbar-light .navbar-brand {
+  color: red;
 }
 
-em{
-    text-transform: uppercase;
-    font-style: initial;
+/* Navbar background color */
+.navbar {
+  background-color: white;
 }
-#first {
-    text-align: left; 
+
+/* Jumbotron background and font styles */
+/* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+.jumbotron {
+  /* Background */
+  background-attachment: fixed;
+  background-image: url(kenyawildlife.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 400px;
 }
-/* #second { */
-    /* text-align: right; */
-/* } */
-.right{
-    text-align: right;
+
+.card{
+  background-color: black;
+  height: 200px;
 }
-body{
-    background-color: blanchedalmond;
+
+.card-title{
+  color: white;
+  text-align: center;
+  font-size: 12px;
 }
-.big{
-    font-size: 48px;
+
+  /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
-p.tacos .big {
-    font-size: 48px;
+
+/* The background color of the "testimonials" part */
+.testimonials {
+  background-color: #eeeeee;
 }
-p{
-    text-align:center;
-    font-family: helvetica;
+
+/* The size of the images in the cards  */
+.media img {
+  width: 64px;
+  height: 64px;
+}
+
+
+.Photosource1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: xx-small;
+  margin-block-start: 17em;
+  margin-block-end: 0em;
+    margin-inline-end: 0px;
+}
+
+
+/* The footer */
+.footer img {
+  width: 100px;
 }
