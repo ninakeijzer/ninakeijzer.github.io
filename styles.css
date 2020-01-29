@@ -4,12 +4,24 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 /* Except we're using more specific rules to override the headlines */
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
 
 h1{
   color: darkgreen; 
+  font-family: 'Sigmar One', cursive;
+}
+
+h2, h3{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+h4{
+  color:white;
+  font-size: 100px;
+  text-align: center;
 }
 
 h6{
@@ -19,15 +31,15 @@ h6{
 }
 /* And the "logo" */
 .navbar-brand {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Zhi Mang Xing', cursive;
   font-size: 30px;
-}
+  }
 .navbar-brand img {
   width: 30px;
   height: 30px;
 }
 .navbar-light .navbar-brand {
-  color: red;
+  color: darkgreen;
 }
 
 /* Navbar background color */
@@ -55,7 +67,8 @@ h6{
 .card-title{
   color: white;
   text-align: center;
-  font-size: 12px;
+  font-size: 32px;
+  font-family: 'Sigmar One', cursive;
 }
 
   /* Fonts */
@@ -72,7 +85,6 @@ h6{
 /* The size of the images in the cards  */
 .media img {
   width: 64px;
-  height: 64px;
 }
 
 
@@ -97,4 +109,9 @@ h6{
 .table{
   width: 1000px;
   font-size: 10px;
+}
+
+/* STYLES FOR CONTACT PAGE SPECIFICALLY */
+.form-control2{
+height: 10px;
 }
