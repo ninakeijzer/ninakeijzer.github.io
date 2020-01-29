@@ -4,7 +4,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 /* Except we're using more specific rules to override the headlines */
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, h7 {
   font-family: 'Roboto Slab', serif;
 }
 
@@ -24,11 +24,21 @@ h4{
   text-align: center;
 }
 
+h5{
+  font-weight: bold;
+}
+
 h6{
   font-size: 20px;
   font-weight: bold;
-
 }
+
+h7{
+color: black;
+font-size: 30px;
+font-weight: bold;
+}
+
 /* And the "logo" */
 .navbar-brand {
   font-family: 'Zhi Mang Xing', cursive;
@@ -85,6 +95,10 @@ h6{
 /* The size of the images in the cards  */
 .media img {
   width: 64px;
+}
+
+.media2{
+  height: 150px;
 }
 
 
